@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: Get a random number
  * Return: 0
  */
