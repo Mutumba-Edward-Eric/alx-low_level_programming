@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-/* printing the alphabet */
+/**
+ * main - main block
+ * Description: printsthe alphabet in lowercase, then in uppercase, followed by a new line.
+ * Return: 0
+ */
 int main(void)
 {
 	char c;
