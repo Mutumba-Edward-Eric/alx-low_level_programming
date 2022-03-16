@@ -2,18 +2,18 @@
 
 /**
  * main - check the code
- * print_alphabet - Print the alphabet in lowercase.
- * Always 0.
+ * print_alphabet - Print the alphabet in lower case.
+ * Return: 0
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (c = 'a'; c <= 'z'; c++)
 
 	{
-		_putchar(ch);
+		_putchar(c);
 	}
 	_putchar('\n');
 	return (0);
