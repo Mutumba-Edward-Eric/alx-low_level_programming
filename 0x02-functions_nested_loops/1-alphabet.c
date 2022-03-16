@@ -6,14 +6,14 @@
  * Always 0.
  */
 
-void print_alphabet(void);
+int print_alphabet(void)
 {
-	int i;
+	char ch;
 
-	for (i = 97; i < 123; i++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
-		_putchar(i);
+		_putchar(ch);
 	}
 	_putchar('\n');
 	return (0);
