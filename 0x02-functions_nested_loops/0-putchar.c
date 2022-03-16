@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,15 +5,16 @@
  * Return: always 0 (Success)
  * Description: print the word "printchar"
  */
+
 int main(void)
 {
-	int i;
-	char p[] = "_putchar";
-
-	for (i = 0; i < 9; i++)
+	char c[9] = "_putchar";
+	int i = 0;
+	while (i < 8)
 	{
-		_putchar(p[i]);
+		_putchar(c[i]);
+		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
