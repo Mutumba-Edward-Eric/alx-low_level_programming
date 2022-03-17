@@ -5,6 +5,7 @@
  * Return: 0 or 1
  */
 
+int c;
 int _isalpha(int c)
 
 {
