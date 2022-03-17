@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_sign - check numbers
+ * print_sign - Determines if the input number
+ * @n: The input number as an integer.
  * Retur: 0 or 1
  */
 
