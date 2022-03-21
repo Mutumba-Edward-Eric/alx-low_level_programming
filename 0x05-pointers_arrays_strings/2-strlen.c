@@ -8,9 +8,12 @@
  */ 
 int -strlen(char *s)
 {
-	int count = 0;
+	int len = 0;
 
-	while(*(s + count) != '\0')
-		count++;
-	return (count);
+	while(*s != '\0')
+	{
+		s++;
+		len++;
+	}
+	return (len);
 }
