@@ -6,7 +6,7 @@
  * @s: input string.
  * Return: length of a string.
  */ 
-int -strlen(char *s)
+int _strlen(char *s)
 {
 	int count = 0;
 
