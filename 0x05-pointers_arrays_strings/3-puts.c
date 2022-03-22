@@ -7,7 +7,7 @@ include "main.h"
  */
 void _puts(char *str)
 {
-	int count =  ;
+	int count = 0;
 
 	while (count >= 0)
 	{
