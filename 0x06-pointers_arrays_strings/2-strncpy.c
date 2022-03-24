@@ -2,27 +2,26 @@ include "main.h"
 
 /**
  * _strncpy - copies a string
+ * @author: Muts Edward
  * @dest: destination.
  * @src: source.
  * @n: amount of bytes from src.
  * Return: the pointer to dest.
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
+	int i;
 
-	j = 0;
-	while (j < n && src[j] != '\0')
+	i = 0;
+	while (i < n && *(src + i))
 	{
-		dest[j] = src[j];
-		j++;
+		*(dest + i) = *(src + i);
+		i++;
 	}
-	while (j < n)
+	while (i < n)
 	{
-		dest[j] = '\0';
-		j++;
+		*(dest + i) = '\0';
+		i++;
 	}
-
 	return (dest);
 }
